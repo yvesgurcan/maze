@@ -161,6 +161,7 @@ function get_possible($box){
     if(possible_routes.length < 1){
       console.log("FINISHED.");
       setup_finished();
+      location.reload();
       return;
     }else{
       // Otherwise keep going, using the first element in teh possible routes array!
